@@ -2,20 +2,12 @@
 import random
 answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – definitely', 'You may rely on it', 'As I see it, yes', 'Most likely', 'Outlook good', 'Yes Signs point to yes', 'Reply hazy', 'try again', 'Ask again later', 'Better not tell you now', 'Cannot predict now', 'Concentrate and ask again', 'Dont count on it', 'My reply is no', 'My sources say no', 'Outlook not so good', 'Very doubtful']
 
-print('                                             _..._                  .----.      ')
-print('                                          .-'_..._''.              / .--. \     ')
-print(' __  __   ___                     .--.  .' .'      '.\            ' '    ' '    ')
-print('|  |/  `.'   `.            .--./) |__| / .'                       \ \    / /    
-')
-print('|   .-.  .-.   '          /.''\\  .--.. '                          `.`'--.'     ')
-print('|  |  |  |  |  |    __   | |  | | |  || |                          / `'-. `.    ')
-print('|  |  |  |  |  | .:--.'.  \`-' /  |  || |                         ' /    `. \   ')
-print('|  |  |  |  |  |/ |   \ | /("'`   |  |. '                        / /       \ ' ')
-print('|  |  |  |  |  |`" __ | | \ '---. |  | \ '.          .          | |         | | ')
-print('|__|  |__|  |__| .'.''| |  /'""'.\|__|  '. `._____.-'/          | |         | | ')
-print('                / /   | |_||     ||       `-.______ /            \ \       / /  ')
-print('                \ \._,\ '/\'. __//                 `              `.'-...-'.'   ')
-print('                 `--'  `"  `'---'                                    `-...-'    ')
+print('  __  __          _____ _____ _____    ___  ')
+print(' |  \/  |   /\   / ____|_   _/ ____|  / _ \ ')
+print(' | \  / |  /  \ | |  __  | || |      | (_) |')
+print(' | |\/| | / /\ \| | |_ | | || |       > _ < ')
+print(' | |  | |/ ____ \ |__| |_| || |____  | (_) |')
+print(' |_|  |_/_/    \_\_____|_____\_____|  \___/ ')
 print('Hello World, I am the Magic 8 Ball, What is your name?')
 name = input()
 print('hello ' + name)
