@@ -8,6 +8,9 @@ print(' | \  / |  /  \ | |  __  | || |      | (_) |')
 print(' | |\/| | / /\ \| | |_ | | || |       > _ < ')
 print(' | |  | |/ ____ \ |__| |_| || |____  | (_) |')
 print(' |_|  |_/_/    \_\_____|_____\_____|  \___/ ')
+print('')
+print('')
+print('')
 print('Hello World, I am the Magic 8 Ball, What is your name?')
 name = input()
 print('hello ' + name)
@@ -22,7 +25,7 @@ def Magic8Ball():
     
 
 def Replay():
-    print ('Do you have another question? [Y/N] '/n)
+    print ('Do you have another question? [Y/N] ')
     reply = input()
     if reply == 'Y':
         Magic8Ball()
@@ -32,5 +35,5 @@ def Replay():
         print('I apologise, I did not catch that. Please repeat.')
         Replay()
 
-
+		
 Magic8Ball()
