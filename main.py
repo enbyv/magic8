@@ -2,25 +2,43 @@
 import random
 answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes – definitely', 'You may rely on it', 'As I see it, yes', 'Most likely', 'Outlook good', 'Yes Signs point to yes', 'Reply hazy', 'try again', 'Ask again later', 'Better not tell you now', 'Cannot predict now', 'Concentrate and ask again', 'Dont count on it', 'My reply is no', 'My sources say no', 'Outlook not so good', 'Very doubtful']
 
-print('hello, I am the Magic 8 Ball, what is your name?')
+print('                                             _..._                  .----.      ')
+print('                                          .-'_..._''.              / .--. \     ')
+print(' __  __   ___                     .--.  .' .'      '.\            ' '    ' '    ')
+print('|  |/  `.'   `.            .--./) |__| / .'                       \ \    / /    
+')
+print('|   .-.  .-.   '          /.''\\  .--.. '                          `.`'--.'     ')
+print('|  |  |  |  |  |    __   | |  | | |  || |                          / `'-. `.    ')
+print('|  |  |  |  |  | .:--.'.  \`-' /  |  || |                         ' /    `. \   ')
+print('|  |  |  |  |  |/ |   \ | /("'`   |  |. '                        / /       \ ' ')
+print('|  |  |  |  |  |`" __ | | \ '---. |  | \ '.          .          | |         | | ')
+print('|__|  |__|  |__| .'.''| |  /'""'.\|__|  '. `._____.-'/          | |         | | ')
+print('                / /   | |_||     ||       `-.______ /            \ \       / /  ')
+print('                \ \._,\ '/\'. __//                 `              `.'-...-'.'   ')
+print('                 `--'  `"  `'---'                                    `-...-'    ')
+print('Hello World, I am the Magic 8 Ball, What is your name?')
 name = input()
 print('hello ' + name)
 
 
 def Magic8Ball():
-    print('I am very wise. Ask me a question.')
+    print('Ask me a question.')
     input()
     print (answers[random.randint(0, len(answers)-1)] )
+    print('I hope that helped!')
     Replay()
     
 
 def Replay():
-    print ('I hope that was helpful, do you have another question?')
+    print ('Do you have another question? [Y/N] '/n)
     reply = input()
-    if reply == 'Yes':
+    if reply == 'Y':
         Magic8Ball()
-    else:
-        print('thank you for talking to me')
+    elif reply == 'N':
         exit()
+    else:
+        print('I apologise, I did not catch that. Please repeat.')
+        Replay()
+
 
 Magic8Ball()
